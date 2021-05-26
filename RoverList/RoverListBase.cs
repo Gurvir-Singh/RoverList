@@ -45,7 +45,7 @@ namespace RoverList
         /// position on one to the right.
         /// </summary>
         /// <param name="Position">Zero-based position of the node to add (Position 0 is the first node, 1 is the second, etc)</param>         
-        public abstract void Add(int Position, T data);
+        public abstract void Add(T data, int Position);
 
 
         /// <summary>
